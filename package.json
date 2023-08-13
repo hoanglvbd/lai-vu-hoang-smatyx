@@ -9,14 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@devexpress/dx-react-core": "3.0.4",
+    "@devexpress/dx-react-scheduler": "3.0.4",
+    "@devexpress/dx-react-scheduler-material-ui": "3.0.4",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "@mui/x-date-pickers": "^5.0.0-alpha.7",
+    "@reduxjs/toolkit": "^1.9.5",
     "@types/node": "20.4.10",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
+    "typescript": "latest",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.2"
   }
 }
